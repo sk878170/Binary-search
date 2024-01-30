@@ -1,7 +1,7 @@
 # Binary-search
 
 
-
+The binary search works on one condition that the array provided to it must be sorted. This is also a disadvantage of binary searchthat is the array is not sorted then it will not work.
 Explanation of the Binary Search Algorithm:
 1. **Initialization**: 
    - Set `left` to 0 (the index of the first element in the array) and `right` to `len(array) - 1` (the index of the last element in the array).
@@ -21,3 +21,5 @@ Explanation of the Binary Search Algorithm:
    - Repeat steps 3 and 4 until either the key is found or `left` exceeds `right`, indicating that the key is not present in the array.
 
 This binary search algorithm efficiently finds the position of the key in the sorted array or determines that the key is not present.
+
+
